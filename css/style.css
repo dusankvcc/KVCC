@@ -803,7 +803,8 @@ a, a:hover {
   font-size: 5rem;
   /* font-weight: 900; */
   color: #fff;
-  text-shadow: 4px 4px 3px rgba(0,0,0,0.58);
+  /* text-shadow: 4px 4px 3px rgba(0,0,0,0.58); */
+  text-shadow: 4px 4px 12px rgba(0,0,0,0.92);
 
 }
 
