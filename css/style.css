@@ -33,7 +33,9 @@ body {
   font-size: 20px;
   line-height: 30px;
   font-weight: 300;
+  /* overflow-x: hidden !important; */
   position: relative;
+  
 }
 
 body:before {
