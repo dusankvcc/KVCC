@@ -595,6 +595,12 @@ a, a:hover {
   display: none;
 }
 
+@media (max-width: 360px) {
+  .gsap-reveal-filter .cover {
+    width: 360px !important;
+  }
+}
+
 .unslate_co--site-mobile-menu {
   position: fixed;
   z-index: 1009;
@@ -823,6 +829,7 @@ a, a:hover {
 @media (max-width: 991.98px) {
   .cover-v1 .heading {
     font-size: 3rem;
+  
   }
 }
 
@@ -838,18 +845,19 @@ a, a:hover {
   }
 }
 .heading{
-  /* font-size: 170px !important; */
+  
   font-family: "JHC", sans-serif !important;
   font-weight: 400;
   font-size: 7rem !important;
 
 
 }
-.subheading {
+/* .subheading {
   font-family: "JHC", sans-serif !important;
 
-  /* font-weight: 700; */
-}
+ 
+} */
+
 .cover-v1 .post-meta {
   font-size: 18px;
 }
